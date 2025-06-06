@@ -1,0 +1,12 @@
+pageobjectclasess\homepage.class
+Testcases\TC_AccountRegistrationtest.class
+pageobjectclasess\AccountRegistration.class
+pageobjectclasess\Basepage.class
+Utilities\Dataproviders.class
+Utilities\Excelutility.class
+pageobjectclasess\Loginpage.class
+Testcases\TC_002LoginTest.class
+pageobjectclasess\Myaccount.class
+Utilities\Extentreport.class
+Testcases\TC003_LoginDDT.class
+basepackage\BaseClass.class

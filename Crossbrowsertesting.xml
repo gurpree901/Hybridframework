@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowserSuite" parallel="tests" thread-count="3">
+
+ <test name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="windows"/>
+    <classes>
+      <class name="Testcases.TC_AccountRegistrationtest"/>
+    </classes>
+  </test>
+
+  <test name="EdgeTest">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="os" value="mac"/>
+    <classes>
+      <class name="Testcases.TC_AccountRegistrationtest"/>
+    </classes>
+  </test>
+  
+
+  <test name="FirefoxTest">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="os" value="mac"/>
+    <classes>
+      <class name="Testcases.TC_AccountRegistrationtest"/>
+    </classes>
+  </test>
+
+</suite>
+ 
